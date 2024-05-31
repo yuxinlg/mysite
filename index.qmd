@@ -1,5 +1,5 @@
 ---
-title: "yuxingliang.github.io"
+title: "Yuxin Liang"
 ---
 
 This is a Quarto website.
