@@ -1,20 +1,39 @@
 project:
   type: website
+  title: "yuxinliang"
   output-dir: docs
 
 website:
   title: "Yuxin Liang"
+  favicon: YuxinLiang.png
   navbar:
+    title: false
+    logo: YuxinLiang.png
+    logo-alt: "Alt text for logo"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: project.qmd
+        text: Project
+ #     - about.qmd
+      - href: CV_YuxinLiang.pdf
+        text: CV
+        target: _blank
+      - href: analog.qmd
+        text: Analog Insights
+      
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - styles.scss
+    #yeti
+    #simplex
+    #litera
+    mainfont: Playfair
+    fontsize: 15pt
+#    css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

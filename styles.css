@@ -1,1 +1,8 @@
 /* css styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-font-size {
+    font-size: 12px;
+}

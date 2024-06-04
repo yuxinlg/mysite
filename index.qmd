@@ -1,11 +1,31 @@
 ---
 title: "Yuxin Liang"
+image: me.jpg
+2toc: false
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      icon: linkedin 
+      href: https://www.linkedin.com/in/yuxinliang/
+    - text: GitHub
+      icon: github
+      href: https://github.com/yuxinlg
+    - text: Email
+      icon: envelope
+      href: mailto:issingliang@gmail.com
 ---
 
-This is a Quarto website.
+**Hi there!**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to my personal website
 
-```{r}
-1 + 1
-```
+I hold a Master's degree in Social Policy and Data Analysis from the University of Pennsylvania. I also have a Bachelor's degree in International Politics from Fudan University and a Bachelor's degree in Political Science from Waseda University.
+
+**Where do I belong? I am still looking for.**
+
+My passion lies in data analysis and visualization, and I enjoy working with tools like <span class="highlight">R, Python, Excel</span>, and mapping software such as <span class="highlight">ArcGIS</span> and <span class="highlight">QGIS</span>. I aim to leverage my skills to help people better understand and utilize policy and data to improve well-being. My interests particularly focus on health policy in the US and around the world.
+
+In addition to my professional pursuits, I'm an avid fan of Broadway musicals and have a keen interest in photography. Explore my website to see my data-related projects and some of the photos I've captured along the way.

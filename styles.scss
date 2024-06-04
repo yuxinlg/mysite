@@ -1,0 +1,81 @@
+/*-- scss:defaults --*/
+
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+// Fonts
+$CrimsonText: "Crimson Text", serif;
+$Playfair: "Playfair", serif;
+$MontserratAlternates: "Montserrat Alternates", sans-serif;
+$Montserrat: "Montserrat", sans-serif;
+$Cinzel: "Cinzel", serif;
+
+
+// Colors
+$rurikon: rgba(11, 52, 110); // 80% opacity
+$ruri: rgba(0, 92, 175);
+$moegi: rgba(123, 162, 35);
+$tohoh: rgba(255, 196, 8);
+$kohbai: rgba(225, 104, 140);
+$shion: rgba(143, 119, 181, 0.5);
+$bg: rgba(255, 255, 255, 1);
+
+// Base document colors
+$navbar-bg: $bg; // navbar
+$navbar-fg: $rurikon;
+$navbar-hl: $ruri;
+$body-bg: $bg; 
+$body-color: $rurikon; 
+$link-color: $moegi;
+
+// Inline code
+$code-bg: $shion;
+$code-color: $moegi;
+
+
+/*-- scss:rules --*/ 
+
+/* grouping rules
+h1, h2 {
+  letter-spacing: 5px;
+}
+*/
+
+/* ID rules
+#para1 {
+  color: red;
+  text-align: center;
+}
+*/
+
+// Element rules
+h1 {
+  font-family: $Playfair;
+  font-weight: 900; 
+}
+
+
+//
+
+// class rules
+.menu-text {
+  font-family: $Cinzel;
+  font-weight: 450; 
+}
+
+.highlight {
+  color: $moegi;
+  font-weight: 700;
+}
+
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
+}
+
+/* universal rules
+* {
+  text-align: center;
+  color: orange;
+}
+*/
