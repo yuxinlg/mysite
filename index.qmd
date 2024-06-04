@@ -2,14 +2,10 @@
 title: "Yuxin Liang"
 ---
 
-**Hi there!**
+This is a Quarto website.
 
-Welcome to my personal website
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-I hold a Master's degree in Social Policy and Data Analysis from the University of Pennsylvania. I also have a Bachelor's degree in International Politics from Fudan University and a Bachelor's degree in Political Science from Waseda University.
-
-**Where do I belong? I am still looking for.**
-
-My passion lies in data analysis and visualization, and I enjoy working with tools like [R, Python, Excel]{.highlight}, and mapping software such as [ArcGIS]{.highlight} and [QGIS]{.highlight}. I aim to leverage my skills to help people better understand and utilize policy and data to improve well-being. My interests particularly focus on health policy in the US and around the world.
-
-In addition to my professional pursuits, I'm an avid fan of Broadway musicals and have a keen interest in photography. Explore my website to see my data-related projects and some of the photos I've captured along the way.
+```{r}
+1 + 1
+```
